@@ -114,6 +114,12 @@ td:last-of-type {
   background: url(./../assets/Screenshot_46.png) no-repeat center/100%;
 }
 
+.analytics-images {
+  width: 100%;
+  height: 560px;
+  background: url(./../assets/Screenshot_51.png) no-repeat center/100%;
+}
+
 .overlay {
   width: 100%;
   height: 100%;
@@ -146,4 +152,18 @@ td:last-of-type {
 
 .problems-list li {
   margin-bottom: 15px;
+}
+
+.team-members li {
+  margin-bottom: 15px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.team-members img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
 }
